@@ -1,7 +1,7 @@
 // toggle menu
 const navbar = document.querySelector("#navbar");
 navbar.addEventListener("click", () => {
-  navbar.style.display = "";
+  navbar.style.display = "none";
 });
 const openMenu = document.querySelector("#open");
 openMenu.addEventListener("click", () => {
@@ -24,6 +24,8 @@ scrollRight.addEventListener("click", () => {
 scrollLeft.addEventListener("click", () => {
   imgList.scrollBy(-750, 0);
 });
+
+
 // form info display
 const formInfo = document.querySelector(".display-Info");
 formInfo.addEventListener("click", () => {
@@ -32,3 +34,4 @@ formInfo.addEventListener("click", () => {
     formInfo.style.display = "block";
   }, 5000);
 });
+
