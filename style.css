@@ -104,19 +104,18 @@ header {
 /* About section */
 .About h3 {
   text-align: center;
-  margin-top: 3rem;
+  margin-top: 2rem;
   font-size: 1.9rem;
 }
 .About-info {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: center; 
 }
 .About-info img {
   margin-top: 2rem;
   border-radius: 20px;
-  width: 400px !important;
-  object-fit: fill !important;
+   width: 400px; 
 }
 .About-info p {
   text-align: justify;
@@ -339,7 +338,6 @@ footer {
     background-color: #fff;
     padding: 10px;
   }
-  
   nav {
     position: fixed;
     display: none;
@@ -349,7 +347,7 @@ footer {
     right: -50px;
     top: 0px;
     transition: 300ms ease;
-    height: 90vh;
+    height: 100vh;
     z-index: 999;
   }
   nav ul {
@@ -377,7 +375,7 @@ footer {
     width: 30px;
     
   }
-
+  
   .close {
     display: block;
     margin: 1em;
